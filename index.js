@@ -73,6 +73,7 @@ btnVisitante.addEventListener('click', chooseDiscount3);
 
 function clearForm(event) {
   document.getElementById("comprarTickets").reset();
+  cantidadTickets.value = 1;
 }
 
 btnBorrar.addEventListener('click', clearForm);
