@@ -78,7 +78,7 @@ function clearForm(event) {
 btnBorrar.addEventListener('click', clearForm);
 
 function getPrice(event) { 
-  document.getElementById("precioArs").textContent = ((ticketPrice * discountToApply) * parseInt(cantidadTickets.value));
+  document.getElementById("precioArs").textContent = ((ticketPrice * discountToApply) * parseInt(ticketAmount.value));
 }
 
 btnResumen.addEventListener('click', getPrice);
