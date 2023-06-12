@@ -10,7 +10,7 @@ const visitantType = ["Estudiante", "Trainee", "Junior", "Visitante"];
 let visitantSelect = visitantType[3];
 let discountToApply;
 
-.value = 1;
+ticketAmount.value = 1;
 getDiscount(visitantSelect);
 
 function getDiscount (x) {
